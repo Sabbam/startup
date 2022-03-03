@@ -35,6 +35,7 @@ color:green;
 button{
 background-color:grey;
 padding:10px 25px;
+font-size:15px;  
 }
 button {
   transition-duration: 0.4s;
@@ -46,9 +47,11 @@ button:hover {
 }
 section1 h1{
 text-align:center;
+ font-size:25px;
 }
 section2 h1{
 text-align:center;
+font-size:25px;  
 }
 a:link {
   text-decoration: none;
@@ -83,4 +86,5 @@ a:active {
 
 section3 h1{
 text-align:center;
+font-size:25px;  
 }
