@@ -1,58 +1,78 @@
-nav{
-background-color:grey;
-margin:2px;
+nav1{
 background-color:blue;
+width:100%;
+height:50px;
+display:flex;
+justify-content:space-between;
 }
-nav li{
-list-style:none;
-padding:10px;
+i{
 float:right;
-color:black;
-border-style:solid;
-border-color:black;
-border-width:2px;
-margin:2px;
-background-color:grey;
-}
-logo{
-font-size:25px;
-}
-nav ul{
-overflow:auto;
-text-decoration:none;
-}
-nav li a{
-text-decoration:none;
-color:black;
+overflow:hidden;
 }
 p{
-color:blue;
-font-size:20px;
-}
-nav li a:hover{
-color:green;
-}
-button{
 background-color:grey;
-padding:10px 25px;
-font-size:15px;  
+}
+i{
+background-color:grey;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background:#fb3958;
+  color: white;
+}
+.fa-youtube {
+  background:red;
+  color: white;
+}
+.fa-github {
+  background:black;
+  color: white;
+}
+.fa-linkedin {
+  background:darkblue;
+  color: white;
+}
+ .fa {
+  padding: 10px;
+  margin:2px;	
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
 }
 button {
-  transition-duration: 0.4s;
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+border:solid;
+border-color:blue;
+  padding: 5px 10px;
+margin:4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+ transition-duration: 0.4s;
 }
-
+b{
+color:white;
+} 
 button:hover {
   background-color:gold;
   color: white;
 }
-section1 h1{
-text-align:center;
- font-size:25px;
-}
-section2 h1{
-text-align:center;
-font-size:25px;  
-}
 a:link {
   text-decoration: none;
 }
@@ -84,7 +104,23 @@ a:active {
   text-decoration: underline;
 }
 
-section3 h1{
-text-align:center;
-font-size:25px;  
+footer{	
+background-image:url("bg2.jpg")color:black;
+	border-width:5px;
+	border-style:double;
+	
 }
+
+logo{
+text-align:center;
+margin:150px;
+}
+logo2{
+margin:5px;
+font-size:20px;
+}
+body{
+background:linear-gradient(rgba(0,0,0,0.7)),rgba(0,0,0,0.7)),url('file:///D:/html%20website/StartUp/sea-4847987_960_720.webp');
+}
+               
+
