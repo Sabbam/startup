@@ -10,7 +10,7 @@ float:right;
 overflow:hidden;
 }
 p{
-background-color:grey;
+background-color:#04AA6D;
 }
 i{
 background-color:grey;
@@ -129,6 +129,14 @@ logo2{
 padding:10px;
 font-size:25px;
 }
+logo1{
+padding:2px;
+top:2px;
+bottom:4px;
+text-align:center;
+margin:250px;
+font-size:16px;
+}
 body{
 background:linear-gradient(rgba(0,0,0,0.7)),rgba(0,0,0,0.7)),url('file:///D:/html%20website/StartUp/sea-4847987_960_720.webp');
 }
@@ -165,11 +173,61 @@ nav li a:hover{
 color:white;
 }
 body{
-background-image:url('https://cdn.pixabay.com/photo/2020/03/26/10/58/norway-4970080_960_720.jpg');
-width:100%;
-height:100vh;
-background-size:cover;
+background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('norway-4970080_1920.jpg');
+    background-size:cover;
+    color: white;   
+}
+body h1{
+text-align:center;
 
+}
+body h2{
+text-align:center;
+padding:10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
 body h1{
 text-align:center;
@@ -179,12 +237,12 @@ body h2{
 text-align:center;
 padding:10px;
 }
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
+body1 img{
+width:30%;
+height:20%;
+float:left;
 }
-
-
-
+body1 p1{
+text-align:center;
+padding:8px;
+}
